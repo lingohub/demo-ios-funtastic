@@ -12,6 +12,6 @@ In order to connect the demo project with [LingoHub](https://lingohub.com), crea
 
 ### Support
 
-For support please refer to [LingoHub iOS SDK]([https://github.com/lingohub/lh-ios-sdk](https://github.com/lingohub/lh-ios-sdk) repository or use the [contact options](https://lingohub.com/support) provided by LingoHub.
+For support please refer to [LingoHub iOS SDK](https://github.com/lingohub/lh-ios-sdk) repository or use the [contact options](https://lingohub.com/support) provided by LingoHub.
 
 
