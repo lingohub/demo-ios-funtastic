@@ -1,0 +1,6 @@
+framework module Pods_Funtastic {
+  umbrella header "Pods-Funtastic-umbrella.h"
+
+  export *
+  module * { export * }
+}

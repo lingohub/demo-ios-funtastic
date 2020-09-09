@@ -1,0 +1,16 @@
+PODS:
+  - LingoHub (1.0.0)
+
+DEPENDENCIES:
+  - LingoHub
+
+SPEC REPOS:
+  trunk:
+    - LingoHub
+
+SPEC CHECKSUMS:
+  LingoHub: afe0858192a5b44f3dde1424bef434d0b4a65273
+
+PODFILE CHECKSUM: 32101b1856967e26d79ee6fa84d82de8bd487b76
+
+COCOAPODS: 1.9.3

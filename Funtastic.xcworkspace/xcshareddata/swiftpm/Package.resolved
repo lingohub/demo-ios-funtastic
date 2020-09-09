@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LingoHub",
+        "repositoryURL": "https://github.com/lingohub/lh-ios-sdk",
+        "state": {
+          "branch": null,
+          "revision": "68c3966fc0c9784b1f441b1c594a30a612c999b9",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

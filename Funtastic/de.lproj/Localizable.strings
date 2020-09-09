@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Funtastic
+
+  Created by Martin Daum on 15.07.20.
+  
+*/
+
+"claim"="Lasse deiner Fantasie freien Lauf";
+"login"="Anmelden";
+"sign_up"="Registrieren";
+"forgot_password"="Passwort vergessen?";

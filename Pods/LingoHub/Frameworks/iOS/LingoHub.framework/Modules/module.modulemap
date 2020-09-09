@@ -1,0 +1,11 @@
+framework module LingoHub {
+  umbrella header "LingoHub.h"
+
+  export *
+  module * { export * }
+}
+
+module LingoHub.Swift {
+    header "LingoHub-Swift.h"
+    requires objc
+}

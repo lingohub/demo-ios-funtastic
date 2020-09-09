@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		083EEDF0EB20E2AD56614E42C2A465A5 /* LingoHub */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4153D9F52E6FA87EB2EB666B72E492CD /* Build configuration list for PBXAggregateTarget "LingoHub" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = LingoHub;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0E6A351B2497054D0EF4A85B7FC179B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BA5EDA98565BA00038771C79CF0CE5E4 /* Pods-Funtastic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2E944FC513947FE8E51BEBD117A07 /* Pods-Funtastic-dummy.m */; };
+		FCF6C8450F6E3FF3B1D17CF08CDD034D /* Pods-Funtastic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4853F2214054FE3355EE8B2690BF7C93 /* Pods-Funtastic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7CB1DCFF598932B430E1729D200FC81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 083EEDF0EB20E2AD56614E42C2A465A5;
+			remoteInfo = LingoHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BC2E944FC513947FE8E51BEBD117A07 /* Pods-Funtastic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Funtastic-dummy.m"; sourceTree = "<group>"; };
+		1E5C0E8B834258DFA1455608A572DC0D /* Pods-Funtastic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Funtastic.release.xcconfig"; sourceTree = "<group>"; };
+		2D0E91DCBBF03887BC99B8A632DA893C /* LingoHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LingoHub.release.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4853F2214054FE3355EE8B2690BF7C93 /* Pods-Funtastic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Funtastic-umbrella.h"; sourceTree = "<group>"; };
+		791B4284CA4BCC6BDB9C1EA63B5B98D2 /* Pods-Funtastic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Funtastic-acknowledgements.plist"; sourceTree = "<group>"; };
+		803432235705D41BA38C295869951BBF /* Pods-Funtastic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Funtastic.debug.xcconfig"; sourceTree = "<group>"; };
+		80E090421103C62878D3059473E401E6 /* LingoHub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LingoHub.framework; path = Frameworks/iOS/LingoHub.framework; sourceTree = "<group>"; };
+		89929F36527BFE22022EC4DB11DD79BA /* Pods-Funtastic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Funtastic.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFEAE72C803ECCBA661A4127F11DF3B5 /* Pods-Funtastic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Funtastic-Info.plist"; sourceTree = "<group>"; };
+		C40D49D21F853B837038323D1F5990F0 /* Pods-Funtastic-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Funtastic-frameworks.sh"; sourceTree = "<group>"; };
+		C8CE16ADBD29A7519681A89FF723FD92 /* LingoHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LingoHub.debug.xcconfig; sourceTree = "<group>"; };
+		C8F92B22AFEDE0BC5E08F99C096ABC62 /* Pods-Funtastic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Funtastic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDF5F916FC335FBF450ED78BB9FE24CB /* Pods_Funtastic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Funtastic.framework; path = "Pods-Funtastic.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31242B10E0146B8C39E21BF5D3B98CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6A351B2497054D0EF4A85B7FC179B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26315068156A08BC5A0A3C2D01C49409 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8CE16ADBD29A7519681A89FF723FD92 /* LingoHub.debug.xcconfig */,
+				2D0E91DCBBF03887BC99B8A632DA893C /* LingoHub.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LingoHub";
+			sourceTree = "<group>";
+		};
+		4B6C23A06EC4B952AE36DD078C8F520E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80E090421103C62878D3059473E401E6 /* LingoHub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A13D80EE739C580165FEB6EA8803556 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6DE079874C656EEA833A66EAB17AE0A /* Pods-Funtastic */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		749FACEC99BC45505D5864AB14C3BD76 /* LingoHub */ = {
+			isa = PBXGroup;
+			children = (
+				4B6C23A06EC4B952AE36DD078C8F520E /* Frameworks */,
+				26315068156A08BC5A0A3C2D01C49409 /* Support Files */,
+			);
+			name = LingoHub;
+			path = LingoHub;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D272A2DCECD8286738AF7D2FF0E6F8F7 /* Pods */,
+				F212252C8BF38DA13D2B68A3E873CD45 /* Products */,
+				5A13D80EE739C580165FEB6EA8803556 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D272A2DCECD8286738AF7D2FF0E6F8F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				749FACEC99BC45505D5864AB14C3BD76 /* LingoHub */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F212252C8BF38DA13D2B68A3E873CD45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5F916FC335FBF450ED78BB9FE24CB /* Pods_Funtastic.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6DE079874C656EEA833A66EAB17AE0A /* Pods-Funtastic */ = {
+			isa = PBXGroup;
+			children = (
+				89929F36527BFE22022EC4DB11DD79BA /* Pods-Funtastic.modulemap */,
+				C8F92B22AFEDE0BC5E08F99C096ABC62 /* Pods-Funtastic-acknowledgements.markdown */,
+				791B4284CA4BCC6BDB9C1EA63B5B98D2 /* Pods-Funtastic-acknowledgements.plist */,
+				1BC2E944FC513947FE8E51BEBD117A07 /* Pods-Funtastic-dummy.m */,
+				C40D49D21F853B837038323D1F5990F0 /* Pods-Funtastic-frameworks.sh */,
+				AFEAE72C803ECCBA661A4127F11DF3B5 /* Pods-Funtastic-Info.plist */,
+				4853F2214054FE3355EE8B2690BF7C93 /* Pods-Funtastic-umbrella.h */,
+				803432235705D41BA38C295869951BBF /* Pods-Funtastic.debug.xcconfig */,
+				1E5C0E8B834258DFA1455608A572DC0D /* Pods-Funtastic.release.xcconfig */,
+			);
+			name = "Pods-Funtastic";
+			path = "Target Support Files/Pods-Funtastic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B0AD39698E75648694263A8C7C0074F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF6C8450F6E3FF3B1D17CF08CDD034D /* Pods-Funtastic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F7573078B1D35C57E8EB6CF45FCE28CD /* Pods-Funtastic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17FE6B2154146D9562C7BC41FC05790 /* Build configuration list for PBXNativeTarget "Pods-Funtastic" */;
+			buildPhases = (
+				0B0AD39698E75648694263A8C7C0074F /* Headers */,
+				1CE8412AF237BD6845D5AE280FE9B04B /* Sources */,
+				31242B10E0146B8C39E21BF5D3B98CB0 /* Frameworks */,
+				4F79BF73AF56BBE0E816188E8F9ED7F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBA32138A645867028BCF463FC82807 /* PBXTargetDependency */,
+			);
+			name = "Pods-Funtastic";
+			productName = "Pods-Funtastic";
+			productReference = FDF5F916FC335FBF450ED78BB9FE24CB /* Pods_Funtastic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F212252C8BF38DA13D2B68A3E873CD45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				083EEDF0EB20E2AD56614E42C2A465A5 /* LingoHub */,
+				F7573078B1D35C57E8EB6CF45FCE28CD /* Pods-Funtastic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F79BF73AF56BBE0E816188E8F9ED7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE8412AF237BD6845D5AE280FE9B04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5EDA98565BA00038771C79CF0CE5E4 /* Pods-Funtastic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EBA32138A645867028BCF463FC82807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LingoHub;
+			target = 083EEDF0EB20E2AD56614E42C2A465A5 /* LingoHub */;
+			targetProxy = D7CB1DCFF598932B430E1729D200FC81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		587A812BEC1BD5DD0B65592A585842EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8CE16ADBD29A7519681A89FF723FD92 /* LingoHub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B199B33460F6E297A1BC018BE2F39CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803432235705D41BA38C295869951BBF /* Pods-Funtastic.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Funtastic/Pods-Funtastic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Funtastic/Pods-Funtastic.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B86F8EFA03C628EFC0045AF746ECE8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0E91DCBBF03887BC99B8A632DA893C /* LingoHub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4F8A56682C5C32A2E532AAB8ECEFB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5C0E8B834258DFA1455608A572DC0D /* Pods-Funtastic.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Funtastic/Pods-Funtastic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Funtastic/Pods-Funtastic.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4153D9F52E6FA87EB2EB666B72E492CD /* Build configuration list for PBXAggregateTarget "LingoHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587A812BEC1BD5DD0B65592A585842EE /* Debug */,
+				B86F8EFA03C628EFC0045AF746ECE8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17FE6B2154146D9562C7BC41FC05790 /* Build configuration list for PBXNativeTarget "Pods-Funtastic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B199B33460F6E297A1BC018BE2F39CA3 /* Debug */,
+				E4F8A56682C5C32A2E532AAB8ECEFB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

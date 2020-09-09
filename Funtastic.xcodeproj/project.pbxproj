@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E5BDE2B24BEE16D000162EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BDE2A24BEE16D000162EB /* AppDelegate.swift */; };
+		0E5BDE2F24BEE16D000162EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BDE2E24BEE16D000162EB /* ViewController.swift */; };
+		0E5BDE3224BEE16D000162EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5BDE3024BEE16D000162EB /* Main.storyboard */; };
+		0E5BDE3424BEE171000162EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5BDE3324BEE171000162EB /* Assets.xcassets */; };
+		0E5BDE3724BEE171000162EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5BDE3524BEE171000162EB /* LaunchScreen.storyboard */; };
+		0E5BDE4224BEE6C1000162EB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E5BDE4424BEE6C1000162EB /* Localizable.strings */; };
+		0ED4F10E2508BB9100BFD0BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4F10D2508BB9100BFD0BD /* Constants.swift */; };
+		BAA1B3CD06344010E18BF66C /* Pods_Funtastic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0D4D772480B52426E5E189 /* Pods_Funtastic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1008C624FFD82800677C95 /* LingoHub.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LingoHub.xcframework; path = ../../SDK/LingoHub.xcframework; sourceTree = "<group>"; };
+		0E5BDE2724BEE16D000162EB /* Funtastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Funtastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5BDE2A24BEE16D000162EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E5BDE2E24BEE16D000162EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E5BDE3124BEE16D000162EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E5BDE3324BEE171000162EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E5BDE3624BEE171000162EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E5BDE3824BEE171000162EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E5BDE4024BEE6AE000162EB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		0E5BDE4124BEE6AE000162EB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0E5BDE4324BEE6C1000162EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0E5BDE4524BEE6C9000162EB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0ED4F10D2508BB9100BFD0BD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2D2C39A367173BDB46A1143C /* Pods-Funtastic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Funtastic.release.xcconfig"; path = "Target Support Files/Pods-Funtastic/Pods-Funtastic.release.xcconfig"; sourceTree = "<group>"; };
+		5C0D4D772480B52426E5E189 /* Pods_Funtastic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Funtastic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBC73A999EA671C44B01752 /* Pods-Funtastic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Funtastic.debug.xcconfig"; path = "Target Support Files/Pods-Funtastic/Pods-Funtastic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E5BDE2424BEE16D000162EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA1B3CD06344010E18BF66C /* Pods_Funtastic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDDD40E1A23184CEE05FD17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFBC73A999EA671C44B01752 /* Pods-Funtastic.debug.xcconfig */,
+				2D2C39A367173BDB46A1143C /* Pods-Funtastic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0E5BDE1E24BEE16D000162EB = {
+			isa = PBXGroup;
+			children = (
+				0E5BDE2924BEE16D000162EB /* Funtastic */,
+				0E5BDE2824BEE16D000162EB /* Products */,
+				0EC78AAB24FFD3D000466415 /* Frameworks */,
+				0BDDD40E1A23184CEE05FD17 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0E5BDE2824BEE16D000162EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BDE2724BEE16D000162EB /* Funtastic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E5BDE2924BEE16D000162EB /* Funtastic */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BDE2A24BEE16D000162EB /* AppDelegate.swift */,
+				0E5BDE2E24BEE16D000162EB /* ViewController.swift */,
+				0E5BDE3024BEE16D000162EB /* Main.storyboard */,
+				0E5BDE3324BEE171000162EB /* Assets.xcassets */,
+				0E5BDE3524BEE171000162EB /* LaunchScreen.storyboard */,
+				0E5BDE3824BEE171000162EB /* Info.plist */,
+				0E5BDE4424BEE6C1000162EB /* Localizable.strings */,
+				0ED4F10D2508BB9100BFD0BD /* Constants.swift */,
+			);
+			path = Funtastic;
+			sourceTree = "<group>";
+		};
+		0EC78AAB24FFD3D000466415 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E1008C624FFD82800677C95 /* LingoHub.xcframework */,
+				5C0D4D772480B52426E5E189 /* Pods_Funtastic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E5BDE2624BEE16D000162EB /* Funtastic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E5BDE3B24BEE171000162EB /* Build configuration list for PBXNativeTarget "Funtastic" */;
+			buildPhases = (
+				E26A4F17272199BBC9689CBE /* [CP] Check Pods Manifest.lock */,
+				0E5BDE2324BEE16D000162EB /* Sources */,
+				0E5BDE2424BEE16D000162EB /* Frameworks */,
+				0E5BDE2524BEE16D000162EB /* Resources */,
+				D606054005ACEC1F4671F4D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Funtastic;
+			productName = Funtastic;
+			productReference = 0E5BDE2724BEE16D000162EB /* Funtastic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E5BDE1F24BEE16D000162EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					0E5BDE2624BEE16D000162EB = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 0E5BDE2224BEE16D000162EB /* Build configuration list for PBXProject "Funtastic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 0E5BDE1E24BEE16D000162EB;
+			packageReferences = (
+			);
+			productRefGroup = 0E5BDE2824BEE16D000162EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E5BDE2624BEE16D000162EB /* Funtastic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E5BDE2524BEE16D000162EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5BDE3724BEE171000162EB /* LaunchScreen.storyboard in Resources */,
+				0E5BDE4224BEE6C1000162EB /* Localizable.strings in Resources */,
+				0E5BDE3424BEE171000162EB /* Assets.xcassets in Resources */,
+				0E5BDE3224BEE16D000162EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D606054005ACEC1F4671F4D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Funtastic/Pods-Funtastic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Funtastic/Pods-Funtastic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Funtastic/Pods-Funtastic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E26A4F17272199BBC9689CBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Funtastic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E5BDE2324BEE16D000162EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5BDE2F24BEE16D000162EB /* ViewController.swift in Sources */,
+				0E5BDE2B24BEE16D000162EB /* AppDelegate.swift in Sources */,
+				0ED4F10E2508BB9100BFD0BD /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E5BDE3024BEE16D000162EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5BDE3124BEE16D000162EB /* Base */,
+				0E5BDE4024BEE6AE000162EB /* de */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E5BDE3524BEE171000162EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5BDE3624BEE171000162EB /* Base */,
+				0E5BDE4124BEE6AE000162EB /* de */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0E5BDE4424BEE6C1000162EB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5BDE4324BEE6C1000162EB /* en */,
+				0E5BDE4524BEE6C9000162EB /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E5BDE3924BEE171000162EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E5BDE3A24BEE171000162EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E5BDE3C24BEE171000162EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBC73A999EA671C44B01752 /* Pods-Funtastic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZEXELP28D3;
+				INFOPLIST_FILE = Funtastic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingohub.Funtastic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E5BDE3D24BEE171000162EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2C39A367173BDB46A1143C /* Pods-Funtastic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZEXELP28D3;
+				INFOPLIST_FILE = Funtastic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingohub.Funtastic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E5BDE2224BEE16D000162EB /* Build configuration list for PBXProject "Funtastic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5BDE3924BEE171000162EB /* Debug */,
+				0E5BDE3A24BEE171000162EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E5BDE3B24BEE171000162EB /* Build configuration list for PBXNativeTarget "Funtastic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5BDE3C24BEE171000162EB /* Debug */,
+				0E5BDE3D24BEE171000162EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E5BDE1F24BEE16D000162EB /* Project object */;
+}
